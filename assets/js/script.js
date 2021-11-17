@@ -69,7 +69,7 @@ function getNews(myCriteria) {
 
         console.log("fetch will call: " + callMe);
 
-         fetch(callMe, {origin: 'https://gitandrewcoffee.github.io'})
+         fetch(callMe)
             .then(function(response) {
 
                 response.json()
